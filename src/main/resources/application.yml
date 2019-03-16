@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: recommendationservice
+  cloud:
+      config:
+        uri: http://localhost:8090
+management:
+        security:
+          enabled: false
+name: Recommendation Service version 1.0
+server:
+  port: 21910
